@@ -20,7 +20,6 @@
     pageContext.setAttribute("name", "wangwu", PageContext.SESSION_SCOPE);
     pageContext.setAttribute("name", "wangwu", PageContext.APPLICATION_SCOPE);
 %>
-
 <%=pageContext.findAttribute("name")%> <%-- 依次从PAGE_SCOPE、空SCOPE、QUEST_SCOPE、SESSION_SCOPE、APPLICATION_SCOPE拿到属性 --%>
 </body>
 </html>
